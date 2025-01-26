@@ -25,3 +25,19 @@ console.log(employee);
 employee.department = "Talent Aquisition";
 employee.position = "Associate";
 console.log(employee)
+
+//Task 4 - Array of Objects
+let customers = [
+    {name: "Demar Derozan",
+        email: "Droz@gmail.com",
+        purchaseAmount: 10},
+    {name: "Zach Lavine",
+        email: "ZLavine@gmail.com",
+        purchaseAmount: 50},
+    {name: "Coby White",
+        email: "Cwhite@gmail.com",
+        purchaseAmount: 100}
+];
+console.log(customers);
+customers.push({name: "Mark Williams", email: "MW@gmail.com" purchaseAmount: 200});
+console.log(customers);
